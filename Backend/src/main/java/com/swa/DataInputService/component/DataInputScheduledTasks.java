@@ -14,7 +14,6 @@ import com.swa.DataInputService.service.Sender;
 public class DataInputScheduledTasks {
     @Autowired
     Sender sender;
-
     @Autowired
     DataInputService service;
     @Value("${kafka.topics.dis.prefix}")
